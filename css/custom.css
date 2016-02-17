@@ -167,7 +167,7 @@ z-index: +1;
 /*AGENDA*/
 .cDate p{ text-align: left; font-size: 140%; font-family: 'Open Sans', sans-serif; font-weight: lighter!important; color: #d8d8d8; line-height: 150%; text-align: center;}
 .cConName p{text-align: left; font-size: 110%; font-family: 'Open Sans', sans-serif; font-weight: 600!important; color: #ffffff; line-height: 150%; text-align: center;}
-.Titlebar{ border-right: solid 1px #666666; }
+.Titlebar{ border-right: solid 1px #666666; padding: 1em; }
 .DayTitle h1{ text-align: left; font-size: 150%; font-family: 'Open Sans', sans-serif; font-weight: lighter!important; color: #3a3536; line-height: 150%; padding: 40px 0px 10px 0px;}
 .cConName a{ color: #ffffff;}
 .cConName a:hover{ color: #f75252; border-bottom: solid 2px #f75252; padding-bottom: 4px;}
