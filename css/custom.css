@@ -303,7 +303,7 @@ cAbstractContent h2{
  .TuBlue{height: auto;}
  .TuYellow{height: auto;}
  .TuGreen{height: auto;}
- .Titlebar{ border-right: 0; border-bottom: solid 1px #999999; padding-bottom: 20px;}
+/* .Titlebar{ border-right: 0; border-bottom: solid 1px #999999; padding-bottom: 20px;}*/
  .cTime_T{height: 65px;}
  .TuRed_T p{  height: 80px;}
 .TuBlue_T p{ height: 80px;}
@@ -332,13 +332,18 @@ cAbstractContent h2{
  .TuBlue{height: auto;}
  .TuYellow{height: auto;}
  .TuGreen{height: auto;}
- .Titlebar{ border-right: 0; border-bottom: solid 1px #999999; padding: 20px 0px;}
+/* .Titlebar{ border-right: 0; border-bottom: solid 1px #999999; padding: 20px 0px;}*/
  .cSpeakerInfo_Session{padding-left: 0px;}
          .cSpeakerImage{float: none;}
          .cSpeakerInfo{float: none}
 }
 
 @media screen and (max-width: 768px){
+    .asiacon-2015-top-title h1 { font-size: 25px; line-height: 25px; padding: 0px 0% 0% 0%; }
+    .asiacon-2015-wrapper { height: 120px; }
+    .cDate p { font-size: 100%; }
+    .asiacon-2015-main-content-inner a { font-size: 90%;}
+    .asiacon-2015-main-content-topbar {  padding: 10px 0px; }
  .DayTitle{ padding: 0px 20px;} 
  .cTime {padding-left: 20px; height: auto;}
  .cTimeBreakNetworking{padding-left: 20px; height: auto;}
@@ -349,5 +354,5 @@ cAbstractContent h2{
  .TuBlue{height: auto;}
  .TuYellow{height: auto;}
  .TuGreen{height: auto;}
- .Titlebar{ border-right: 0; border-bottom: solid 1px #999999; padding: 20px 0px;}
+/* .Titlebar{ border-right: 0; border-bottom: solid 1px #999999; padding: 20px 0px;}*/
 }
