@@ -1,0 +1,14 @@
+{
+  "track 1":{
+    "version": "1.0.0",
+    "url" : "rtmp://52.0.20.127:1935/live/track1.flv"
+  },
+  "track 2":{
+    "version": "1.0.0",
+    "url" : "rtmp://52.0.20.127:1935/live/track2.flv"
+  },
+  "track 3":{
+    "version": "1.0.0",
+    "url" : "rtmp://52.0.20.127:1935/live/track3.flv"
+  }
+}
