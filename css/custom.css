@@ -177,7 +177,7 @@ z-index: +1;
 .asiacon-2015-main-content-inner li{ text-align: left; font-size: 100%; font-family: 'Open Sans', sans-serif; font-weight: normal; color: #666666; line-height: 150%; padding: 8px 0px;}
 .asiacon-2015-wrapper-red{ background-color: #960808; padding-bottom: 10px;}
 .asiacon-2015-wrapper-ash{ background-color: #f2f2f2; }
-.asiacon-2015-main-content-topbar{ padding: 20px 0px; }
+/*.asiacon-2015-main-content-topbar{ padding: 20px 0px; }*/
 
 /*AGENDA*/
 .cDate p{ text-align: left; font-size: 140%; font-family: 'Open Sans', sans-serif; font-weight: lighter!important; color: #d8d8d8; line-height: 150%; text-align: center;}
