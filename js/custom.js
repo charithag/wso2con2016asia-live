@@ -21,7 +21,7 @@ $('#track_1').click(function() {
 
             });
          });
-         $("#myModal").modal({backdrop: 'static', keyboard: false});
+         //$("#myModal").modal({backdrop: 'static', keyboard: false});
 });
 
 $('#track_2').click(function() {
@@ -47,7 +47,7 @@ $('#track_2').click(function() {
 
              });
          });
-         $("#myModal").modal({backdrop: 'static', keyboard: false});
+         //$("#myModal").modal({backdrop: 'static', keyboard: false});
 });
 
 $('#track_3').click(function() {
@@ -73,7 +73,11 @@ $('#track_3').click(function() {
 
             });
         });
-        $("#myModal").modal({backdrop: 'static', keyboard: false});
+        //$("#myModal").modal({backdrop: 'static', keyboard: false});
+});
+
+$(document).ready(function(){
+    $('#track_1').click();
 });
 
 

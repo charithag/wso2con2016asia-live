@@ -97,14 +97,250 @@ input#stream_url{
    color: #fff;
    }
 
+/*
 #track_1{
-    background: #C9302C;
+    background: #e25b67;
 }
 
 #track_2{
-    background: #449D44;
+    background: #f9a961;
 }
 
 #track_3{
-    background: #FFBF00;
+    background: #444b97;
+}
+*/
+
+.asiacon-2015-wrapper { background-image: url("http://cdn.wso2.com/wso2con/asia16/images/wso2conasia-2016-web-header-agenda.jpg"); height: 250px;}
+.asiacon-2015-top-title h1 { padding: 40px 0% 0% 0%;}
+
+.a { text-decoration: none; font-weight: normal;}
+.a:hover{ color: #dd0b16; border-bottom: solid 2px #dd0b16; padding-bottom: 1px;}
+.clear { clear: both; }
+.cFooter .cCopyright { float: right; color: #999999; margin: 15px 20px 0px; font-size: 80%; font-family: 'Open Sans', sans-serif; Arial, Verdana, Helvetica;}
+a.cBookmark { display: inline-block; margin: -60px 0px 0px; position: absolute; }
+.asiacon-2015-body-text { font-family: 'Open Sans', sans-serif; Arial, Verdana, Helvetica; font-weight: normal; color: #ffffff; font-size: 14px; line-height: 150%; }
+.asiacon-2015-top-title{  max-width: 960px; margin: auto; padding: 60px 0px 20px 0px; }
+.asiacon-2015-top-title h1{ color: #f9e86e; font-size: 70px; line-height: 70px; text-align: center; font-family: 'Open Sans', sans-serif; Arial, Verdana, Helvetica; font-weight: 300!important; }
+.asiacon-2015-inner-logo { float: right; vertical-align: top; padding: 50px 0px 20px 0px; }
+.asiacon-2015-inner-logo img{ max-width: 395px; width: 100%;}
+.asiacon-2015-main-content { width: 100%; max-width: 1170px; margin: auto; display: block; font-family: 'Open Sans', sans-serif; Arial, Verdana, Helvetica; padding: 15px 0px 0px 0px;}
+.asiacon-2015-wrapper-agenda {background-color: #3a3536; padding: 0px 0px;}
+.row { margin-right: 0; margin-left: 0px;}
+.asiacon-2015-main-content-inner-dark p { font-size: 100%; font-family: 'Open Sans', sans-serif; font-weight: lighter; color: #ffffff; line-height: 140%; padding: 10px 0px;}
+.Layer{ background-position: center top; min-height: 100hv; background-size: cover; margin: auto; width: 100%; background-repeat: no-repeat;background-attachment: fixed;background-image: url("/wp-content/themes/asia15/images/agenda-bottom-back.jpg"); }
+.asiacon-2015-wrapper-contact{background-color: #f2f2f2; padding-bottom: 20px;}
+
+
+
+
+html {
+margin-top: 0px !important;
+}
+.f-nav{
+position: fixed;
+top: 35px;
+left: 0;
+right: 0;
+padding: 5px;
+width: 100%;
+z-index: +1;
+
+}
+
+
+
+/*COMMON*/
+.asiacon-2015-innerwhite-title h1{ color: #ffffff; font-weight: normal; font-size: 36px; line-height: 36px; font-family: 'Open Sans', sans-serif; Arial, Verdana, Helvetica; padding: 20px 0px; text-align: center;}
+.asiacon-2015-innerdark-title h1{ color: #333333; font-weight: lighter!important; font-size: 36px; line-height: 50px; font-family: 'Open Sans', sans-serif; Arial, Verdana, Helvetica; padding: 20px 0px; text-align: center;}
+.asiacon-2015-main-content-inner p { font-size: 100%; font-family: 'Open Sans', sans-serif; font-weight: normal; color: #111111; line-height: 140%;}
+.asiacon-2015-main-content-inner a{ font-size: 100%; text-decoration: none; font-family: 'Open Sans', sans-serif; font-weight: 600!important; line-height: 150%; color: #666666;}
+.asiacon-2015-main-content-inner a:hover{ border-bottom: solid 1px #dd0b16; color: #dd0b16;}
+.asiacon-2015-main-content-inner ul{ padding: 0px 0px 30px 40px;}
+.asiacon-2015-main-content-inner ul li{ text-align: left; font-size: 100%; font-family: 'Open Sans', sans-serif; font-weight: normal; color: #666666; line-height: 150%;}
+.asiacon-2015-main-content-inner ol { padding: 0px 0px 0px 40px; }
+.asiacon-2015-main-content-inner li{ text-align: left; font-size: 100%; font-family: 'Open Sans', sans-serif; font-weight: normal; color: #666666; line-height: 150%; padding: 8px 0px;}
+.asiacon-2015-wrapper-red{ background-color: #960808; padding-bottom: 10px;}
+.asiacon-2015-wrapper-ash{ background-color: #f2f2f2; }
+.asiacon-2015-main-content-topbar{ padding: 20px 0px; }
+
+/*AGENDA*/
+.cDate p{ text-align: left; font-size: 140%; font-family: 'Open Sans', sans-serif; font-weight: lighter!important; color: #d8d8d8; line-height: 150%; text-align: center;}
+.cConName p{text-align: left; font-size: 110%; font-family: 'Open Sans', sans-serif; font-weight: 600!important; color: #ffffff; line-height: 150%; text-align: center;}
+.Titlebar{ border-right: solid 1px #666666; }
+.DayTitle h1{ text-align: left; font-size: 150%; font-family: 'Open Sans', sans-serif; font-weight: lighter!important; color: #3a3536; line-height: 150%; padding: 40px 0px 10px 0px;}
+.cConName a{ color: #ffffff;}
+.cConName a:hover{ color: #f75252; border-bottom: solid 2px #f75252; padding-bottom: 4px;}
+
+.cTime {border-left: solid 1px #cccccc; background-color: #f2f2f2; color: #555555; height: 300px; text-align: left; padding-top: 25px; padding-left: 50px; border-bottom: solid 1px #cccccc; border-top: solid 1px #ffffff;}
+.cTimeBreak {border-left: solid 1px #cccccc; background-color: #f2f2f2; color: #555555; text-align: left; padding: 25px 0px 30px 50px; border-bottom: solid 1px #cccccc; border-top: solid 1px #ffffff; height: 60px;}
+.cBreak{ background-color: #d2d2d8; color: #555555; padding: 20px 0px 35px 20px; border-bottom: solid 1px #cccccc; height: 60px; line-height: 160%; font-weight: 600!important;}
+
+.cKeynote {background-color: #ffffff; color: #555555; text-align: left; padding: 25px 0px 35px 20px; border-bottom: solid 1px #cccccc; height: 180px; border-right: solid 1px #cccccc;}
+.cTimeBreakKeynote {border-left: solid 1px #cccccc; background-color: #f2f2f2; color: #555555; text-align: left; padding: 30px 0px 30px 50px; border-bottom: solid 1px #cccccc; border-top: solid 1px #ffffff; height: 180px;}
+
+
+.cTimeBreakNetworking { border-left: solid 1px #cccccc; background-color: #f2f2f2; color: #555555; text-align: left; padding: 20px 0px 35px 50px; border-bottom: solid 1px #cccccc; border-top: solid 1px #ffffff; height: 60px;}
+.cNetwork_event{ background-color: #ffffff; color: #333333; padding: 20px 0px 35px 20px; border-bottom: solid 1px #cccccc; height: 60px; line-height: 160%; font-weight: 600!important; border-right: solid 1px #cccccc;}
+
+
+.cTimeBreakPanel { border-left: solid 1px #cccccc; background-color: #f2f2f2; color: #555555; text-align: left; padding: 20px 0px 35px 50px; border-bottom: solid 1px #cccccc; border-top: solid 1px #ffffff; height: 530px;}
+.cPanel{ background-color: #ffffff; color: #333333; padding: 20px 0px 35px 20px; border-bottom: solid 1px #cccccc; height: 530px; line-height: 160%; font-weight: 600!important; border-right: solid 1px #cccccc;}
+
+.cKeynoteTitle { text-align: left; font-size: 100%; font-family: 'Open Sans', sans-serif; font-weight: 600!important; color: #111111; line-height: 140%; padding-bottom: 15px;}
+.cSpeakername{ text-align: left; font-size: 90%; font-family: 'Open Sans', sans-serif; font-weight: bold; color: #666666; line-height: 150%; }
+.cDes_Company{ text-align: left; font-size: 90%; font-family: 'Open Sans', sans-serif; font-weight: normal; color: #666666; line-height: 150%; }
+.cKeynoteTitle a{ color: #111111;}
+.cKeynoteTitle a:hover{border-bottom: solid 1px #dd0b16; color: #dd0b16;}
+
+.TuRed{border-top: solid 5px #e25b67; border-right: solid 1px #cccccc; background-color: #ffffff!important; height: 300px; padding: 20px; font-weight: 600!important;}
+.TuBlue{border-top: solid 5px #444b97; border-right: solid 1px #cccccc; background-color: #ffffff!important; height: 300px; padding: 20px;}
+.TuYellow{border-top: solid 5px #f9a961; border-right: solid 1px #cccccc; background-color: #ffffff!important; height: 300px; padding: 20px;}
+.TuGreen{border-top: solid 5px #548e54; border-right: solid 1px #cccccc; background-color: #ffffff!important; height: 300px; padding: 20px; font-weight: 600!important;}
+
+.cTrack{ padding: 0; margin: 0;}
+
+.TuRed_session{ background-color: #e25b67; height: 60px; color: #ffffff; text-align: left; font-weight: 600!important; font-size: 120%; font-family: 'Open Sans', sans-serif; line-height: 140%; padding: 20px;}
+.TuBlue_session{ background-color: #444b97; height: 60px; color: #ffffff; text-align: left; font-weight: 600!important; font-size: 120%; font-family: 'Open Sans', sans-serif; line-height: 140%; padding: 20px;}
+.TuYellow_session{ background-color: #f9a961; height: 60px; color: #ffffff; text-align: left; font-weight: 600!important; font-size: 120%; font-family: 'Open Sans', sans-serif; line-height: 140%; padding: 20px;}
+
+.TuRed p{ padding-bottom: 15px;font-weight: 600!important; height: 90px;}
+.TuBlue p{ padding-bottom: 15px; font-weight: 600!important; height: 90px;}
+.TuYellow p{ padding-bottom: 15px; font-weight: 600!important; height: 90px;}
+.TuGreen p{ padding-bottom: 15px; font-weight: 600!important; height: 90px;}
+
+
+.TuRed:hover{ background-color: rgba(226, 91, 103,0.1)!important;}
+.TuBlue:hover{ background-color: rgba(68, 75, 151,0.1)!important;}
+.TuYellow:hover{ background-color: rgba(249, 169, 97,0.1)!important;}
+.TuGreen:hover{ background-color: rgba(84, 142, 84,0.1)!important;}
+.cKeynote:hover{ background-color: #fcfbd2;}
+.cNetwork_event:hover{ background-color: #fcfbd2;}
+
+.cSpeakerImage img{ width: 100%; display: inline-block; border-radius: 50%; max-width: 80px; }
+.cSpeakerLogo img{ width: 100%; max-width: 325px; border-radius: 8px; }
+.cSpeakerInfo { float: left; display: inline-block; padding: 12px 80px 0px 20px;}
+.cSpeakerImage { float: left; display: inline-block;}
+.cSpeakerlogo { float: left; display: inline-block;}
+.cSpeaker_Session_Logo img{ width: 100%;  max-width: 180px; margin-top: 0; border-radius: 8px; }
+.cSpeakerInfo_Session { width: 100%; padding: 10px 0px 0px 100px;}
+.cSpeaker_Session_Logo{  padding-top: 20px; }
+
+/*LOW_HEIGHT*/
+
+.cTime_L {border-left: solid 1px #cccccc; background-color: #f2f2f2; color: #555555; height: 150px; text-align: left; padding-top: 25px; padding-left: 50px; border-bottom: solid 1px #cccccc; border-top: solid 1px #ffffff;}
+.TuRed_L{border-top: solid 5px #e25b67; border-right: solid 1px #cccccc; background-color: #ffffff!important; height: 150px; padding: 20px; font-weight: 600!important;}
+.TuBlue_L{border-top: solid 5px #444b97; border-right: solid 1px #cccccc; background-color: #ffffff!important; height: 150px; padding: 20px;}
+.TuYellow_L{border-top: solid 5px #f9a961; border-right: solid 1px #cccccc; background-color: #ffffff!important; height: 150px; padding: 20px;}
+.TuGreen_L{border-top: solid 5px #548e54; border-right: solid 1px #cccccc; background-color: #ffffff!important; height: 150px; padding: 20px; font-weight: 600!important;}
+
+.TuRed_L:hover{ background-color: rgba(226, 91, 103,0.1)!important;}
+.TuBlue_L:hover{ background-color: rgba(68, 75, 151,0.1)!important;}
+.TuYellow_L:hover{ background-color: rgba(249, 169, 97,0.1)!important;}
+.TuGreen_L:hover{ background-color: rgba(84, 142, 84,0.1)!important;}
+
+.asiacon-2015-main-content-inner .TuRed_L p{ padding-bottom: 15px; font-weight: 600!important; height: 90px;}
+.asiacon-2015-main-content-inner .TuBlue_L p{ padding-bottom: 15px; font-weight: 600!important; height: 90px;}
+.asiacon-2015-main-content-inner .TuYellow_L p{ padding-bottom: 15px; font-weight: 600!important; height: 90px;}
+.asiacon-2015-main-content-inner .TuGreen_L p{ padding-bottom: 15px; font-weight: 600!important; height: 90px;}
+
+.TuRed a{ color: #111111;}
+.TuBlue a{ color: #111111;}
+.TuYellow a{ color: #111111;}
+.TuGreen a{ color: #111111;}
+
+/*TUTORIAL*/
+
+.cTime_T {border-left: solid 1px #cccccc; background-color: #f2f2f2; color: #555555; height: 480px; text-align: left; padding-top: 25px; padding-left: 50px; border-bottom: solid 1px #cccccc; border-top: solid 1px #ffffff;}
+.TuRed_T{border-top: solid 5px #e25b67; border-right: solid 1px #cccccc; background-color: #ffffff!important; height: 480px; padding: 20px; font-weight: 600!important;}
+.TuBlue_T{border-top: solid 5px #444b97; border-right: solid 1px #cccccc; background-color: #ffffff!important; height: 480px; padding: 20px;}
+.TuYellow_T{border-top: solid 5px #f9a961; border-right: solid 1px #cccccc; background-color: #ffffff!important; height: 480px; padding: 20px;}
+.TuGreen_T{border-top: solid 5px #548e54; border-right: solid 1px #cccccc; background-color: #ffffff!important; height: 480px; padding: 20px; font-weight: 600!important;}
+
+.TuRed_T p{ padding-bottom: 15px;font-weight: 600!important; height: 110px;}
+.TuBlue_T p{ padding-bottom: 15px; font-weight: 600!important; height: 110px;}
+.TuYellow_T p{ padding-bottom: 15px; font-weight: 600!important; height: 110px;}
+.TuGreen_T p{ padding-bottom: 15px; font-weight: 600!important; height: 110px;}
+
+
+
+.TuRed_T:hover{ background-color: rgba(226, 91, 103,0.1)!important;}
+.TuBlue_T:hover{ background-color: rgba(68, 75, 151,0.1)!important;}
+.TuYellow_T:hover{ background-color: rgba(249, 169, 97,0.1)!important;}
+.TuGreen_T:hover{ background-color: rgba(84, 142, 84,0.1)!important;}
+
+.TuRed_T a{ color: #111111;}
+.TuBlue_T a{ color: #111111;}
+.TuYellow_T a{ color: #111111;}
+.TuGreen_T a{ color: #111111;}
+
+cAbstractContent h2{
+    color: #444444 !important;
+    font-weight: bold;}
+
+
+
+
+/*ABSTRACT*/
+
+
+
+@media screen and (max-width: 800px){
+ .DayTitle{ padding: 0px 20px;} 
+ .cTime {padding-left: 20px; height: auto;}
+ .cTimeBreakNetworking{padding-left: 20px; height: auto;}
+ .cTimeBreakKeynote{padding-left: 20px; height: auto;}
+ .cTimeBreak{padding-left: 20px; height: auto;}
+ .cKeynote{height: auto; height: auto;}
+ .TuRed{height: auto;}
+ .TuBlue{height: auto;}
+ .TuYellow{height: auto;}
+ .TuGreen{height: auto;}
+ .Titlebar{ border-right: 0; border-bottom: solid 1px #999999; padding-bottom: 20px;}
+ .cTime_T{height: 65px;}
+ .TuRed_T p{  height: 80px;}
+.TuBlue_T p{ height: 80px;}
+.TuYellow_T p{ height: 80px;}
+.TuGreen_T p{ height: 80px;}
+.cSpeakerInfo{padding-left: 0px;}
+.cTime{padding-bottom: 20px;}
+.cTimeBreakPanel{height: 60px;}
+.cPanel{height: auto;}
+.cSpeakerInfo{padding-right: 10px;}
+.cSpeakerInfo_Session{padding-left: 0px;}
+         .cSpeakerImage{float: none;}
+         .cSpeakerInfo{float: none}
+}
+
+
+
+@media screen and (max-width: 960px){
+ .DayTitle{ padding: 0px 20px;} 
+ .cTime {padding-left: 20px; height: auto;}
+ .cTimeBreakNetworking{padding-left: 20px; height: auto;}
+ .cTimeBreakKeynote{padding-left: 20px; height: auto;}
+ .cTimeBreak{padding-left: 20px; height: auto;}
+ .cKeynote{height: auto; height: auto;}
+ .TuRed{height: auto;}
+ .TuBlue{height: auto;}
+ .TuYellow{height: auto;}
+ .TuGreen{height: auto;}
+ .Titlebar{ border-right: 0; border-bottom: solid 1px #999999; padding: 20px 0px;}
+ .cSpeakerInfo_Session{padding-left: 0px;}
+         .cSpeakerImage{float: none;}
+         .cSpeakerInfo{float: none}
+}
+
+@media screen and (max-width: 768px){
+ .DayTitle{ padding: 0px 20px;} 
+ .cTime {padding-left: 20px; height: auto;}
+ .cTimeBreakNetworking{padding-left: 20px; height: auto;}
+ .cTimeBreakKeynote{padding-left: 20px; height: auto;}
+ .cTimeBreak{padding-left: 20px; height: auto;}
+ .cKeynote{height: auto; height: auto;}
+ .TuRed{height: auto;}
+ .TuBlue{height: auto;}
+ .TuYellow{height: auto;}
+ .TuGreen{height: auto;}
+ .Titlebar{ border-right: 0; border-bottom: solid 1px #999999; padding: 20px 0px;}
 }

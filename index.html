@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>WSO2 Live Streaming</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/asiacon-2015.css" rel="stylesheet">
+    <link href="css/asiacon-2015-inner-styles.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/custom.css" />
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
     <script type="text/javascript" src="js/jwplayer.js"></script>
     <script type="text/javascript" src="js/player.js"></script>
@@ -13,10 +15,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<div id="header">
-    <h1>WSO2 Conference 2016 Asia Live</h1>
-</div>
-<!---->
+    
+<nav class="navbar navbar-default navbar-fixed-top">
+    <img src="images/wso2con-asia-2016-top-menu-logo.png" style="float: left; padding-top: 10px; padding-left: 30px;" alt="WSO2Con asia 2016">
+</nav>
 
 <div class="body_container1">
 
@@ -31,12 +33,7 @@
                     <h4 class="modal-title">WSO2 Video Streaming</h4>
                 </div>
                 <div class="modal-body">
-                    <div id="video_preview">
-                        <div id="player"></div><div class="clear"></div>
-                        <input type="text" id="stream_url" value=""/><br/>
-                        <input type="button" id="btn_start" class="" value="Start" />
-                        <input type="button" id="btn_stop" class="" value="Stop"/>
-                    </div>
+                    
                     <div class="clear"></div>
                 </div>
                 <div class="modal-footer">
@@ -46,13 +43,67 @@
 
         </div>
     </div>
-    <!---->
-    <div id="stream_list">
-            <button id="track_1" class='button'>Track 1</button><br><br>
-            <button id="track_2" class='button'>Track 2</button><br><br>
-            <button id="track_3" class='button'>Track 3</button><br><br>
+    
+    <div class="row asiacon-2015-wrapper">
+        <div class="container asiacon-2015-main-content">
+            <div class="asiacon-2015-main-content-inner">
+                <div class="asiacon-2015-top-title">
+                    <h1>Live</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row asiacon-2015-wrapper-agenda">
+        <div class="container asiacon-2015-main-content-topbar">
+            <div class="asiacon-2015-main-content-inner">
+                <div class="Titlebar col-md-4 active">
+                    <div class="cDate">
+                        <p>Track 1</p>
+                    </div>
+                    <div class="cConName">
+                        <p><a href="javascript:void(0)" id="track_1">View Stream</a></p>
+                    </div>
+                </div>
+                <div class="Titlebar col-md-4">
+                    <div class="cDate">
+                        <p>Track 2</p>
+                    </div>
+                    <div class="cConName">
+                        <p><a href="javascript:void(0)" id="track_2">View Stream</a></p>
+                    </div>
+                </div>
+                <div class="Titlebar col-md-4" style="border: 0px;">
+                    <div class="cDate">
+                        <p>Track 3</p>
+                    </div>
+                    <div class="cConName">
+                        <p><a href="javascript:void(0)" id="track_3">View Stream</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="video_preview">
+        <div id="player"></div><div class="clear"></div>
+        <input type="text" id="stream_url" value=""/><br/>
+        <input type="button" id="btn_start" class="" value="Start" />
+        <input type="button" id="btn_stop" class="" value="Stop"/>
     </div>
 
+</div>
+    
+<div class="cFooter">
+    <div class="cFooterContent">
+        <ul>
+            <li class="cHome"><a target="_blank" href="http://wso2.com/"><img src="images/wso2con-wso2-logo.png" alt="WSO2" border="0"></a></li>
+        </ul>
+        <div class="cCopyright">
+            ©2016 WSO2
+        </div>
+        <div class="cClear"></div>
+    </div>
 </div>
 
 </body>

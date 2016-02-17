@@ -1,0 +1,623 @@
+.a { text-decoration: none; font-weight: normal;}
+.a:hoover{ color: #FF9124;}
+.clear { clear: both; }
+.cFooter .cCopyright { float: right; color: #999999; margin: 5px 20px 0px; font-size: 80%; font-family: 'Open Sans', sans-serif; Arial, Verdana, Helvetica;}
+/*common*/
+.asiacon-2015-body-text { font-family: 'Open Sans', sans-serif; Arial, Verdana, Helvetica; font-weight: normal; color: #ffffff; font-size: 14px; line-height: 150%; }
+.asiacon-2015-top-title{  max-width: 960px; margin: auto; padding: 60px 0px 20px 0px; }
+.asiacon-2015-top-title h1{ color: #f9e86e; font-size: 70px; line-height: 70px; padding: 150px 0% 0% 0%; text-align: center; font-family: 'Open Sans', sans-serif; Arial, Verdana, Helvetica; font-weight: 300!important; }
+.asiacon-2015-inner-logo { float: right; vertical-align: top; padding: 50px 0px 20px 0px; }
+.asiacon-2015-inner-logo img{ max-width: 395px; width: 100%;}
+.asiacon-2015-main-content { width: 100%; max-width: 960px; margin: auto; display: block;  padding: 30px 0px 0px 0px; font-family: 'Open Sans', sans-serif; Arial, Verdana, Helvetica;}
+.asiacon-2015-wrapper{ background-color: transparent; height: 550px; display: block; background-position: center center; background-repeat: no-repeat; background-image: url("http://cdn.wso2.com/wso2con/asia16/images/wso2conasia-2016-web-header-venue.jpg");}
+.asiacon-2015-wrapper-venue {  height: 636px; display: block; background-position: center center; background-repeat: no-repeat; background-image: url("http://cdn.wso2.com/wso2con/asia16/images/wso2conasia-2016-web-header-venue.jpg");}
+.row { margin-right: 0; margin-left: 0px;}
+.asiacon-2015-main-content-inner-dark p { font-size: 100%; font-family: 'Open Sans', sans-serif; font-weight: lighter; color: #ffffff; line-height: 140%; padding: 10px 0px;}
+.asiacon-2015-wrapper-contact{background-color: #f2f2f2; padding-bottom: 20px;}
+.asiacon-2015-wrapper-strategy-header{ background-color: transparent; height: 250px; display: block; background-position: center center; background-repeat: no-repeat; background-image: url("http://asia16.wso2con.com/wp-content/themes/asia15/images/wso2con-asia-2016-strategy-forum-header.jpg");}
+
+/*COMMON*/
+.asiacon-2015-innerwhite-title h1{ color: #ffffff; font-weight: normal; font-size: 36px; line-height: 36px; font-family: 'Open Sans', sans-serif; Arial, Verdana, Helvetica; padding: 20px 0px; text-align: center;}
+.asiacon-2015-innerdark-title h1{ color: #333333; font-weight: lighter!important; font-size: 36px; line-height: 50px; font-family: 'Open Sans', sans-serif; Arial, Verdana, Helvetica; padding: 20px 0px; text-align: center;}
+.asiacon-2015-main-content-inner p { font-size: 100%; font-family: 'Open Sans', sans-serif; font-weight: normal; color: #666666; line-height: 140%;}
+.asiacon-2015-main-content-inner a{ font-size: 100%; text-decoration: none; font-family: 'Open Sans', sans-serif; font-weight: 600!important; color: #dd0b16; line-height: 150%;}
+.asiacon-2015-main-content-inner a:hover{ color: #e8640a; }
+.asiacon-2015-main-content-inner ul{ padding: 0px 0px 30px 40px;}
+.asiacon-2015-main-content-inner ul li{ text-align: left; font-size: 100%; font-family: 'Open Sans', sans-serif; font-weight: normal; color: #666666; line-height: 150%;}
+.asiacon-2015-main-content-inner ol { padding: 0px 0px 0px 40px; }
+.asiacon-2015-main-content-inner li{ text-align: left; font-size: 100%; font-family: 'Open Sans', sans-serif; font-weight: normal; color: #666666; line-height: 150%; padding: 8px 0px;}
+.asiacon-2015-wrapper-red{ background-color: #960808; padding-bottom: 10px;}
+.asiacon-2015-wrapper-ash{ background-color: #f2f2f2;}
+
+/*VENUE*/
+.asiacon-2015-venue-hotel-address p{ color: #666666; font-size: 16px; line-height: 28px; font-family: 'Open Sans', sans-serif; Arial, Verdana, Helvetica; text-align: center;}
+.iframe-direction { padding: 0px 0px 20px 0px; height: 500px;}
+.iframe-direction p{ color: #aa0707; font-weight: bold; font-size: 24px; line-height: 26px; font-family: 'Open Sans', sans-serif; Arial, Verdana, Helvetica; padding: 30px 0px 0px 20px;}
+.cVenueMap { width: 100%; height: 500px;}
+.asiacon-2015-accommodation { padding: 0px 20px 45px 20px; text-align: left; float: left; width: 50%;}
+.asiacon-2015-accommodation a{ padding-bottom: 15px;}
+
+
+/*SPEAKERS*/
+.LeftSpeaker{ background-color: #e8e6e6; text-align: right; display: block;font-family: 'Open Sans', sans-serif; padding: 80px 0px 80px 0px;}
+.RightSpeaker{ background-color: #f5f5f7; text-align: left; display: block; font-family: 'Open Sans', sans-serif; padding: 80px 0px 80px 0px;}
+.LeftSpeaker_R{ background-color: #f5f5f7; text-align: right; display: block; font-family: 'Open Sans', sans-serif; padding: 80px 0px 80px 0px;}
+.RightSpeaker_R{ background-color: #e8e6e6; text-align: left; display: block; font-family: 'Open Sans', sans-serif; padding: 80px 0px 80px 0px;}
+.LeftSpeaker_R:hover{background-color: #ffffff; }
+.RightSpeaker_R:hover{background-color: #ffffff; }
+
+
+
+.Layer{background-position: center top;
+   
+    margin: auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("http://cdn.wso2.com/wso2con/asia16/images/agenda-bottom-back.jpg");
+    display: inline-block;
+    background-color: #000000;
+  background-size: cover;}
+
+
+
+.Layer-Brown{background-position: center top;
+    background-size: 100%;
+    margin: auto;
+    width: 100%;
+    background-repeat: no-repeat;    
+    background-image: url("http://cdn.wso2.com/wso2con/asia16/images/wso2con-asia-2016-jazz-brown-suger-background.jpg");
+   border-bottom: solid 1px #910516;
+    display: inline-block;
+    background-color: #000000;
+padding-top: 20px;
+
+}
+
+.Network-block{ background-color: rgba(0,0,0,0.6); padding: 40px 60px 10px 60px; border-radius: 10px; margin: 40px 0px 30px 0px; border: solid 1px #333333; text-align: center;}
+.Network-block p{ font-size: 100%; font-family: 'Open Sans', sans-serif; font-weight: normal; color: #ffffff; line-height: 140%; padding: 10px 20px 10px 20px; text-align: center;}
+.Network-block a{text-decoration: none; color: #06d4ef; font-weight: bold; text-align: center;}
+.Network-event{ background-color: rgba(0,0,0,0.8); padding: 20px; border: solid 1px #666666; border-radius: 8px; margin-bottom: 60px; text-align: center;}
+.Network-event h2{ font-size: 240%; font-family: 'Open Sans', sans-serif; font-weight: 300!important; color: #f9e310; line-height: 140%; padding: 30px 60px 10px 60px; text-align: center;}
+.Network-event h3{ font-size: 120%; font-family: 'Open Sans', sans-serif; font-weight: bold; color: #f9ef93; line-height: 140%; padding: 10px 60px 20px 60px; text-align: center;}
+.Network-event p{ font-size: 150%; font-family: 'Open Sans', sans-serif; font-weight: 300!important; color: #ffffff; line-height: 150%; padding: 30px 60px 10px 60px; text-align: center;}
+
+.Layer-glory{background-position: center top;
+    margin: auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("/wp-content/themes/asia15/images/wso2con-asia-2016-glory-background.jpg");
+    display: block;    
+    background-position: center top;
+    background-size: 100%;
+    min-height: 100vh;
+    }
+
+.cFeedbackForm{border: solid 1px #cccccc; padding: 40px 0px; text-align: center; background-color: #ffffff; margin: 30px; 0px;}
+
+.LeftSpeaker:hover{ background-color: #ffffff; }
+.RightSpeaker:hover{ background-color: #ffffff; }
+.Speaker-L{display: block; height: 200px;}
+.In_speaker-image_L img{width: 180px; max-width: 100%; border-radius: 200px;}
+.In_speaker-image_L{text-align: right;  padding-right: 30px;}
+.Title-Session_L h4{ color: #333333; font-family: 'Open Sans', sans-serif; font-weight: 300!important; line-height: 140%; font-size: 115%; }
+.Speaker-Session_L a{ color: #dd0b16; font-family: 'Open Sans', sans-serif; font-weight: 600!important; line-height: 140%; font-size: 100%; text-decoration: none; padding-bottom: 5px;}
+.In_speaker-Logo_L img{ border-radius: 8px; width: 200px; padding-top: 5px;}
+.In_speaker-detail_L{ padding-top: 40px; display: block;}
+.Title-Session_L { color: #555555; font-weight: 600!important; font-size: 110%; margin-bottom: 4px; padding-right: 40px;}
+.In_speaker-name_L h3{ font-weight: 700!important; letter-spacing: 2px; padding: 5px 0px; font-size: 120%;}
+.Abstract_L{ padding: 20px 40px 20px 120px; height: 250px;}
+.LeftSpeaker a{ font-size: 100%; text-decoration: none; font-family: 'Open Sans', sans-serif; font-weight: 600!important; color: #dd0b16; line-height: 150%;}
+.LeftSpeaker a:hover{ color: #e8640a; }
+.Speaker-Session_L{padding-right: 40px; height: 25px;}
+.Speaker-Session_L a:hover{border-bottom: solid 1px #dd0b16; padding-bottom: 1px; color: #dd0b16;}
+
+
+.Speaker_R{display: block; height: 200px;}
+.In_speaker-image_R img{width: 180px; max-width: 100%; border-radius: 200px;}
+.In_speaker-image_R{text-align: left;  padding-left: 30px;}
+.Title-Session_R h4{ color: #333333; font-family: 'Open Sans', sans-serif; font-weight: 300!important; line-height: 140%; font-size: 115%; }
+.Speaker-Session_R a{ color: #dd0b16; font-family: 'Open Sans', sans-serif; font-weight: 600!important; line-height: 140%; font-size: 100%; text-decoration: none; padding-bottom: 5px;}
+.In_speaker-Logo_R img{ width: 220px; padding-top: 5px;}
+.In_speaker-detail_R{ padding-top: 40px; display: block;}
+.Title-Session_R { color: #555555; font-weight: 600!important; font-size: 110%; margin-bottom: 4px; padding-left: 40px;}
+.In_speaker-name_R h3{ font-weight: 700!important; letter-spacing: 2px; padding: 5px 0px; font-size: 120%;}
+.LeftSpeaker p{ font-size: 95%; font-family: 'Open Sans', sans-serif; font-weight: normal; color: #666666; line-height: 155%;}
+.RightSpeaker p{ font-size: 95%; font-family: 'Open Sans', sans-serif; font-weight: normal; color: #666666; line-height: 155%;}
+.LeftSpeaker_R p{ font-size: 95%; font-family: 'Open Sans', sans-serif; font-weight: normal; color: #666666; line-height: 155%;}
+.RightSpeaker_R p{ font-size: 95%; font-family: 'Open Sans', sans-serif; font-weight: normal; color: #666666; line-height: 155%;}
+.Abstract_R{ padding: 20px 120px 20px 40px; height: 250px;}
+.RightSpeaker a{ font-size: 100%; text-decoration: none; font-family: 'Open Sans', sans-serif; font-weight: 600!important; color: #dd0b16; line-height: 150%;}
+.RightSpeaker a:hover{ color: #e8640a; }
+.Speaker-Session_R{padding-left: 40px; height: 25px;}
+.Speaker-Session_R a:hover{border-bottom: solid 1px #dd0b16; padding-bottom: 1px; color: #dd0b16;}
+
+
+
+.In_speaker-name h3{ font-weight: 700!important; font-size: 130%; letter-spacing: 2px; color: #555555; line-height: 150%;}
+.Abstract{ padding: 45px 0px; display: inline-block; }
+.asiacon-2015-main-content-S p { font-size: 95%; font-family: 'Open Sans', sans-serif; font-weight: normal; color: #666666; line-height: 140%;}
+.asiacon-2015-main-content-S a{ font-size: 100%; text-decoration: none; font-family: 'Open Sans', sans-serif; font-weight: 600!important; color: #dd0b16; line-height: 150%;}
+.asiacon-2015-main-content-S a:hover{ color: #e8640a; }
+
+
+/*STRATEGY*/
+.Strategy-LT{ font-family: 'Open Sans', sans-serif; background-color: #fcba60; border: solid 10px #ffffff; padding: 50px 40px; font-size: 150%; line-height: 140%; font-weight: lighter!important; color: #111111;}
+.Strategy-RT{ font-family: 'Open Sans', sans-serif; background-color: #f4d242; border: solid 10px #ffffff; padding: 50px 40px; font-size: 150%; line-height: 140%; font-weight: lighter!important; color: #111111;}
+.Strategy-LB{ font-family: 'Open Sans', sans-serif; background-color: #fbad42; border: solid 10px #ffffff; padding: 50px 40px; font-size: 150%; line-height: 140%; font-weight: lighter!important; color: #111111;}
+.Strategy-RB{ font-family: 'Open Sans', sans-serif; background-color: #f89d4b; border: solid 10px #ffffff; padding: 50px 40px; font-size: 150%; line-height: 140%; font-weight: lighter!important; color: #111111;}
+.Strategy_Icon{ text-align: center; }
+.Strategy_Icon img{ width: 90px; padding-bottom: 15px;}
+.asiacon-2015-wrapper-strategy{background-color: #666666; height: 750px; display: block; background-position: center center; background-repeat: no-repeat; background-image: url("http://asia16.wso2con.com/wp-content/themes/asia15/images/customer-back-strategy.jpg"); margin-top: 80px;}
+.Strategy-LT:hover{ background-color: #fc8d39; color: #ffffff;}
+.Strategy-RT:hover{ background-color: #f4a60b; color: #ffffff;}
+.Strategy-LB:hover{background-color: #fb9c27;  color: #ffffff;}
+.Strategy-RB:hover{background-color: #f8824b; color: #ffffff;}
+.Inspired_TopTitle h2{ font-family: 'Open Sans', sans-serif; font-weight: 600!important; text-transform: uppercase; font-style: italic; color: #ffffff; font-size: 300%; line-height: 150%; text-align: center; padding-top: 90px;}
+.Inspired_TopTitle h3{ font-family: 'Open Sans', sans-serif; font-weight: 600!important; text-transform: uppercase; font-style: italic; color: #f4d419; font-size: 180%;line-height: 150%; text-align: center; padding-bottom: 50px;}
+.Bullet-traingle {  margin-bottom: 25px; }
+.Inspired-list{ font-family: 'Open Sans', sans-serif; color: #ffffff; font-size: 140%; line-height: 150%; font-weight: 300!important; margin-bottom: 25px;}
+.Strategy-list{ padding-left: 200px; padding-right: 0px;}
+.Strategy-Price{ text-align: center; font-family: 'Open Sans', sans-serif; padding: 120px 40px; font-weight: 300!important; color: #333333; font-size: 140%; line-height: 150%;}
+.Strategy-Amount p{ font-size: 150%; line-height: 150%; color: #f9ae06; padding: 30px 0px 0px 0px;}
+.Register-button a{ text-transform: uppercase; font-family: 'Open Sans', sans-serif; Arial, Verdana, Helvetica; font-size: 20px; text-transform: uppercase;line-height: 24px;  margin: 10px auto auto auto; color: #ffffff; text-align: center; background-color: rgba(54,178,8,1); border-radius: 4px; text-decoration: none; display: block; padding: 16px 16px 16px 16px; font-weight: 600!important; letter-spacing: 3px;border: solid 1px #ffffff; width: 25%;}
+.Register-button a:hover{ background-color: #44ce0b; }
+.Inspired_TopTitle a:hover{ border-bottom: solid 2px #f4d419;}
+
+/*WHY ATTEND*/
+.asiacon-2015-wa-main-title { padding: 50px 0px 30px 0px; color: #aa0707; font-size: 28px; font-family: 'Open Sans', sans-serif;font-weight: normal; margin: 0; text-align: left; display: block; }
+.asiacon-2015-video { text-align: center; padding: 0px 10px 50px 10px;}
+.asiacon-2015-wa-inner-text-box { background-color: #ffffff; padding: 0px 20px; border-radius: 6px;}
+.asiacon-2015-body-text a { text-decoration: none; color: #fcee70; font-weight: normal;}
+.asiacon-2015-wa-inner-text-box a { text-decoration: none; color: #fcee70; font-weight: normal;}
+.asiacon-2015-body-text { padding: 15px 0px 0px 25px; }
+.asiacon-2015-body-text ol, ul { list-style: display; line-height: 20px;}
+.asiacon-2015-body-text ol li { margin-bottom: 20px; }
+.tcOrderlist ol { padding: 20px 30px 20px 30px; }
+.tcOrderlist ol li { margin-bottom: 20px; }
+
+
+
+/*My Profile Styles*/
+
+.asiacon-2015-main-content-inner .cMyProfile { padding: 40px 0px; font-size: 13px; line-height: 19px; margin: 0px 0px 20px; }
+.asiacon-2015-main-content-inner .cMyProfile .cMyProfileRightLinks { float: right; margin: 40px 50px 0px 0px; }
+.asiacon-2015-main-content-inner .cMyProfileRightLinks ul { list-style: none; margin: 0px; padding: 0px; }
+.asiacon-2015-main-content-inner .cMyProfileRightLinks ul li { padding: 10px 40px 10px 0px; border-bottom: solid 1px #999999; }
+.asiacon-2015-main-content-inner .cMyProfileRightLinks ul li a { font-size: 16px; font-weight: bold; line-height: 22px; color: #AA0707; }
+.cMyProfileRightLinks ul li a:hover { color: #EA0303; }
+.asiacon-2015-main-content-inner .cMyProfile table tr td { padding: 2px 15px 0px 50px; color: #e6e6e6; min-height: 24px; color:#515151; text-align: left; }
+.asiacon-2015-main-content-inner .cMyProfile .cUserName { font-size: 16px; line-height: 22px; padding: 0px 0px 20px 50px; font-weight: bold;}
+.asiacon-2015-main-content-inner .cMyProfile .cDetails { background-color: #ffffff!important; border: solid 1px #cccccc; min-width: 200px; height: 20px; padding: 2px 5px; margin: 2px 0px; color: #666666; font-size: 13px; font-family: Arial, Helvetica, Verdana, sans-serif; }
+.cMyProfile .cSizes { margin: 20px 0px 0px; border-top: dashed 1px #0077c0; padding: 20px 0px 0px; }
+.cMyProfile .cSelect { background-color: #ffffff; border: 0px; min-width: 200px; height: 20px; padding: 2px 5px; margin: 2px 0px; color: #222222; font-size: 13px; font-family: Arial, Helvetica, Verdana, sans-serif; border: 1px solid #a6ccf4;}
+.cMyProfile .cButtonPane { padding: 20px 0px 0px; margin: 20px 0px 0px; }
+.cMyProfile .cButtonPane .cSubBtn { background-color: #f47932; color: #ffffff; border: 0px; margin: 0px; border-radius: 7px; font-family: Arial, Helvetica, Verdana, sans-serif; font-size: 16px; font-weight: bold; padding: 7px 20px; cursor: pointer; }
+.asiacon-2015-main-content-inner .cMyProfile h1 { color: #333333; font-weight: lighter!important; font-size: 36px; line-height: 50px; font-family: 'Open Sans', sans-serif; Arial, Verdana, Helvetica; padding: 20px 0px; text-align: left; }
+.Profile-heading{ color: #333333; font-weight: lighter!important; font-size: 36px; line-height: 50px; font-family: 'Open Sans', sans-serif; Arial, Verdana, Helvetica; padding: 20px 0px; text-align: left; }
+.profile_Sub { background-color: #dddbdb; font-size: 18px; color: #555555; padding: 20px 0px;}
+.asiacon-2015-main-content-inner .cMyProfile .cVisa .cDetails { background-color: #ffffff; color: #444444; min-width: 300px; border: solid 1px #cccccc;}
+.asiacon-2015-main-content-inner .cMyProfile .cVisa .cDate { width: 40px; min-width: 40px; }
+.asiacon-2015-main-content-inner .cMyProfile .cDates td { padding: 2px 5px 0px 0px; }
+.cTop { float: right; }
+.cMyProfile ul.cShare { list-style: none; margin: 0px; padding: 0px; display: inline-block; background-color: transparent; }
+.cMyProfile ul.cShare li { position: relative; float: left; padding: 0px 5px 0px 0px; margin: 0px; line-height: 0px; }
+.cMyProfile ul.cShare li a { line-height: 0px; }
+.cMyProfile ul.cShare li a:hover { opacity: 0.7; }
+.cMyProfile .cError { color: #f47c20; margin: 0px 0px 15px; line-height: 25px;}
+
+
+
+.asiacon-2015-event-des-agenda{ width: 100%;}
+.asiacon-2015-event-des-agenda p {color: #111111; font-size: 18px; line-height: 22px; padding: 2% 0% 0% 0%; text-align: center; font-family: 'Open Sans', sans-serif; Arial, Verdana, Helvetica;}
+
+
+/*NOTIFY ME*/
+.asiacon-2015-main-content-inner-notify {  max-width: 960px; margin: auto; }
+
+
+.LayerContact{ background-color: rgba(26,5,127,0.1); height: 250px;}
+.LayerRegister{ background-color: rgba(6,36,89,0.1); height: 250px;}
+.LayerStrategy{ background-color: rgba(0,0,0,0.2); height: 750px;}
+
+/*CFP*/
+
+
+.asiacon-2015-main-content-inner-cfp {  max-width: 960px; margin: auto; background-color: rgba(255,255,255,0.7); }
+
+
+/*HEADER*/
+.navbar { background-color: #ffffff; text-align: center;  border-bottom: solid 1px #888888;}
+.page-scroll { font-family: 'Open Sans', sans-serif; font-weight: lighter!important; font-size: 16px;}
+.navbar-default .navbar-nav { color: #3a3a38; }
+.navbar-default .navbar-nav > li > a {    
+    font-size: 14px;}
+    
+.Asia-registration { background-color: #c10c1e;  border-bottom: solid 4px #c10c1e!important;}
+a.Asia-registration:hover { background-color: #36b208!important; color: #ffffff!important; border-bottom: solid 4px #36b208!important; border-top: solid 0px #36b208!important;}
+
+/*FOOTER*/
+
+.cBottomLinks { background-color: #960808; padding: 10px 0px 10px 0px;}
+.cBottomLinks .cBottomLinksContent .cPreviousConf h2 a{ color: #ffffff; }
+.cFooter { background-color: #ffffff;}
+.cSocial { border-left-color: #ffffff; border-right-color: #ffffff;}
+
+.cMainContainer{ background-color: #1b1464; width: 100%; min-height: 100vh; background-image: url(http://cdn.wso2.com/wso2con/asia16/images/us14-wso2con-inner-bg.jpg); background-repeat: no-repeat; background-position: center 55px; background-attachment: fixed; }
+.cMainContent { width: 90%; max-width: 960px; margin: auto; }
+.cHomeLogo { display: inline-block; margin: 8% 0px 0px; }
+.cHomeLogo img { width: 100%; max-width: 585px; }
+
+.cTitleBar { background-color: rgba(13, 11, 73, 0.5); width: 100%; display: inline-block; margin: 55px 0px 0px; }
+.cTitleBar .cTitleBarContent { width: 90%; max-width: 960px; margin: auto; }
+.cTitleBar .cTitleBarContent .cInnerLogo { display: inline-block; float: right; padding: 25px 0px 25px; }
+.cTitleBar .cTitleBarContent .cInnerLogo img { width: 100%; max-width: 453px; }
+
+.cMainContent h1.cTitle { display: inline-block; font-family: 'Open Sans', sans-serif; Arial, Verdana, Helvetica; font-weight: 300; font-size: 36px; line-height: 42px; margin: -75px 0px 20px; color: #ffce54; position: absolute; }
+.cMainContent .cContent { padding: 20px 0px; }
+.cContent p { font-family: 'Open Sans', sans-serif; Arial, Verdana, Helvetica; font-size: 14px; margin: 20px 0px; line-height: 150%; padding: 20px 0px 0px 0px;}
+.cContent .cForm { background-color: rgba(255,255,255,0.9); padding: 20px; border-radius: 6px;  }
+.data-font { color: #ffffff; }
+
+.cMessage { margin: 12% auto; width: 100%; padding: 50px 10%; border-radius: 10px; text-align: center; font-family: 'Open Sans', sans-serif; Arial, Verdana, Helvetica; color: #ffffff;}
+.cMessage h2.cTitle { font-family: 'Open Sans', sans-serif; Arial, Verdana, Helvetica; font-size: 1.2em; line-height: 150%; font-weight: normal; margin: 10px 0px 10px; color: #ffffff; }
+.cMessage p { color: #c6102b; }
+
+.cContentRow h2 { font-size: 24px; line-height: 150%; font-weight: 300; margin: 10px 0px 15px; font-family: 'Open Sans', sans-serif; Arial, Verdana, Helvetica; color: #aa0707; }
+.cContentRow h3 { font-size: 18px; color: #057f05; line-height: 150%; font-weight: normal; margin: 10px 0px 15px; font-family: 'Open Sans', sans-serif; Arial, Verdana, Helvetica; display: inline-block; }
+.cContentRow ol { margin: 0px; padding: 0px 0px 0px 0px; font-family: 'Open Sans', sans-serif; Arial, Verdana, Helvetica; font-size: 14px; margin: 7px 0px; line-height: 150%; }
+.cContentRow ol .cMessage { padding: 20px 50px; }
+.cContentRow ol li { padding: 7px 0px; }
+.cContentRow .cMessage { margin: 0px; text-align: left; padding: 25px 30px; width: auto; }
+.cContentRow .cMessage p { color: #cccccc; }
+.cContentRow .cMessage ul { margin: 0px; padding: 0px 0px 0px 10px; font-family: 'Open Sans', sans-serif; Arial, Verdana, Helvetica; font-size: 14px; margin: 7px 0px; line-height: 150%; color: #ffffff; }
+.cContentRow .cMessage ol { margin: 0px; padding: 0px 0px 0px 20px; font-family: 'Open Sans', sans-serif; Arial, Verdana, Helvetica; font-size: 14px; margin: 7px 0px; line-height: 150%;  list-style: lower-alpha; }
+.cContentRow .cMessage span.cHighlight { font-weight: bold; color: #c6102b ; }
+.cContentRow .cLeft { width: 45%; margin: 0 10% 0 0; float: left; }
+.cContentRow .cRight { width: 45%; margin: 0 0 0 0; float: right; }
+
+.cContentRow .cLeftCFP { width: 60%; margin: 0 5% 0 0; float: left; }
+.cContentRow .cRightCFP { width: 35%; margin: 0 0 0 0; float: right; }
+
+.cContentRow .cVenue { margin: 0px 0px 30px 0px; color: #efce7f; }
+.cContentRow .cVenue h2 { font-weight: normal; }
+.cHotel { float: left; margin: 0px 20px 20px; display: inline-block; width: 28%; }
+
+.cBottomLinks { padding: 10px 0px 10px; }
+
+iframe.cForms { height: auto; }
+.cPackageDetails img{position: absolute; padding: 30px 0px 0px 260px;}
+.cCFPbutton { text-align:center; padding: 10px 0px; width: 35%; float: right; }
+.cCFPbutton a { padding: 15px 28px; border-radius: 7px; line-height: 24px; background-color:#36b208; color:#ffffff; font-size: 20px; margin:auto; display:inline-block; font-weight:bold; width: 80%; text-decoration: none; font-family: 'Open Sans', sans-serif; Arial, Verdana, Helvetica; }
+.cCFPbutton a:hover { color: #4def11; }
+a.cBookmark { display: inline-block; margin: -200px 0px 0px; position: absolute; }
+span.cMandatory { color: #ed1c24; }
+
+/*Registration Styles*/
+.cRegTopLinks { display: inline-block; float: left; padding: 0px 0px 40px 55px;}
+.cRegTopLinks a{ font-weight: normal; color:#960808; line-height: 24px; font-size: 18px; margin: 15px 10px 10px 5px; text-decoration: none; font-family: 'Open Sans', sans-serif; Arial, Verdana, Helvetica; }
+.cRegTopLinks a:hover { color: #e8640a; }
+.cRegFee { margin: 10px 0px 25px 0px; display: inline-block; float: left; }
+.cRegForm p { font-size: 0px; line-height: 0px; margin: 0px; }
+.cRegForm .cInfo p { font-size: 14px; line-height: 20px; margin: 10px 0px 0px; }
+.cRegForm .cInfo a { color: #0089de; }
+.cRegForm .cInfo a:hover { color: #f47b20; }
+.cRegFee p { font-size: 18px; line-height: 24px; margin: 5px 0px; }
+.cRegFee h3 { font-size: 20px; margin: 0px 0px 10px; padding: 0px 0px 10px; border-bottom: solid 1px #cccccc; }
+.cRegFee .cEaryBird { color: #ffffff; font-size: 28px; line-height: 34px; }
+.cRegFee .cEaryBird span.cRate { font-size: 28px; font-weight: bold; }
+.cRegFee .cEaryBird span { font-weight: normal; font-size: 16px; line-height: 22px; }
+.cRegDes { font-size: 18px; line-height: 24px; margin: 15px 0px 20px; display: block; }
+.cRegForm { clear: both; background-color: #ffffff; color: #666666; margin: 0px 0px 50px; padding: 0px 0px 0px 0px; font-family: 'Open Sans', sans-serif; Arial, Verdana, Helvetica; font-size: 14px; line-height: 20px; display: block; width: 100%; }
+.cRegFormInner { background-color: #ffffff;}
+.cRegForm table tr td { padding: 0px 10px 8px 0px; }
+.cRegForm label { min-width: 90px; display: inline-block; }
+.cStudent_package_Details { padding: 25px 40px 0px 40px;}
+.cStudent_package_Details h4 { font-weight: normal; color: #000000; border-bottom: 0px; font-size: 21px; line-height: 28px; margin: 0px;}
+.cStudent_package_Details p { font-size: 14px; line-height: 18px; color: #444444; margin: 12px 0px 0px 0px;}
+.reg_fieldset { padding-top: 15px;}
+
+.cRegForm label.cPackageHead, .cRegForm td.cPackageHead { font-weight: bold; font-size: 16px;}
+.cRegForm input.cNumber, .cRegForm select.cNumber { width: 80px; border-radius: 3px; border: solid 1px #cccccc; background-color: #ffffff; font-family: 'Open Sans', sans-serif; Arial, Verdana, Helvetica; font-size: 14px; color: #666666; }
+.cRegForm input.cDetails, .cRegForm select.cSelect , .cRegForm select.cSessions { width: 100%; border-radius: 3px; min-width: 250px; border: solid 1px #cccccc; background-color: #ffffff; font-family: 'Open Sans', sans-serif; Arial, Verdana, Helvetica; font-size: 14px; color: #666666; height: 24px;}
+.cRegForm input.cNumber { width: 80px; min-width: 80px; border-radius: 3px; border: solid 1px #cccccc; background-color: #ffffff; font-family: 'Open Sans', sans-serif; Arial, Verdana, Helvetica; font-size: 14px; color: #666666; }
+.cRegForm select.cNumber { min-width: 20px; width: auto; }
+.cRegForm h3 { font-size: 32px; font-weight: lighter!important; line-height: 50px; font-family: 'Open Sans', sans-serif; Arial, Verdana, Helvetica; padding: 20px 20px 5px 40px; color: #d10f0f; border-bottom: solid 1px #ef7d7d; display: block; margin: 0px 0px 0px; background-color: #ffffff;}
+.cRegForm .cTotal { font-size: 16px; line-height: 22px; font-weight: bold; color: #000000; }
+.cRegForm .cFee { font-weight: bold; color: #d10f0f; padding: 0px 10px 0px 10px; line-height: 18px; font-size: 15px;}
+.cRegForm .cLeft { width: 44%; margin: 0 3% 0 0; float: left; display: inline-block; vertical-align: top; padding: 0px 40px 0px 0px;}
+.cRegForm .cRight { width: 44%; float: left; display: inline-block; vertical-align: top;}
+.cRegForm ol { margin: 0px; padding: 10px 20px 20px 50px; background-color: #ffffff; }
+.cRegForm ol li { padding: 25px 0px 0px 5px; clear: both; }
+.cRegForm ol li table { width: 100%; }
+.cRegForm ol li table td { min-width: 80px; }
+.cRegForm table td.cDetail { color: #000000; font-weight: bold; }
+.cRegForm ol li table td.cField { max-width: 90px; width: 25%; }
+.cRegForm table tr td.cTableTitle { padding: 10px 0px 10px; }
+.cRegForm table tr td.cPromo { padding: 4px 0px 4px; width: 30%; color: #000000; }
+.cRegForm table.cBillingInfo td.cField { max-width: 90px; width: 25%; }
+.cRegHeader { margin: 10px 0px 0px; }
+.cRegHeader .cStep { color: #ffffff; border-top-right-radius: 7px; display: inline-block; float: left; font-family: 'Open Sans', sans-serif; Arial, Verdana, Helvetica; font-size: 18px; font-weight: 700; line-height: 24px; padding: 7px 20px; }
+.cRegHeader .cActive { background-color: #0093d6; }
+.cRegHeader .cInactive1 { background-color: #7ed3f7; }
+.cRegHeader .cInactive2 { background-color: #b1e3fa; }
+.cRegForm .cButtonPane { padding: 20px 20px 40px 40px; margin: 0px 0px 0px; background-color: #ffffff; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;}
+.cRegForm .cButtonPane .cRegBtn { display: inline-block; text-align: center; font-family: Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; font-weight: normal; color: #ffffff; background-color: #36b208!important; padding: 5px 10px; border: 0px; border-radius: 7px; cursor: pointer; margin: 0px 5px 0px 20px; width: 150px;}
+.cRegForm .cButtonPane .cCBBtn { display: inline-block; text-align: center; font-family: Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; font-weight: normal; color: #ffffff; background-color: #36b208!important; padding: 5px 10px; border: 0px; border-radius: 7px; cursor: pointer; margin: 0px 5px 0px 10px; width: 150px;}
+.cRegForm .cButtonPane .cRegBtnPayNow { background-color: #80b726; }
+.cRegForm .cButtonPane .cRegBtnPayLater { background-color: #f47b22; }
+.cRegForm .cButtonPane .cRegBtnBack { background-color: #777777; }
+.cRegForm .cButtonPane .cRegBtn:hover { opacity: .85; }
+.cRegForm .cButtonPane .cBtnText { display: inline-block; float: left; margin: 0px 20px 0px 0px; font-size: 18px; line-height: 30px; color: #689726; }
+.cRegForm .cButtonPane .cPaymentsMethods { display: inline-block; float: right; }
+.cRegForm .cButtonPane .cPayMethodsText { float: left; font-size: 16px; color: #888888; line-height: 35px; display: inline-block; margin: 0px 15px 0px 15px;  }
+.cRegForm .cButtonPane .cPayMethods { display: inline-block; }
+.cRegForm .cButtonPane .cPayMethods img { max-width: 289px; width: 100%; }
+.cOptIn { margin: 10px 0px 5px; font-size: 14px; line-height: 20px; float: left; }
+.cOptIn .cCheckbox { background-color: #ffffff; border: solid 1px #cccccc; margin: 0px 10px 0px 0px; }
+.cComments { border: solid 1px #cccccc; font-family: 'Open Sans', sans-serif; font-size: 1em; line-height: 150%; color: #3d3d3d; padding: 0px 0px 0px 5px; width: 400px; }
+.cLeftStudent { padding: 0px 0px 10px 0px;}
+.cStudet_Rate { padding: 30px 0px 0px 40px; margin: 0;}
+.Registration_Type { background-color: transparent; background-image: url(/wp-content/themes/asia15/images/registration-type-arrow.png); background-repeat: no-repeat; border-top-left-radius: 8px; padding: 0px 0px 0px 0px; width: 100%; float: left; height: 112px; max-width: 301px; }
+.Registration_Type h4{ color: #ffffff; line-height: 24px; font-size: 21px; padding: 40px 0px 0px 40px; }
+.Registration_Type_Radio { background-color: #ffffff; padding: 30px 0px 0px 20px; width: 35%; float: left; }
+.Registration_Type_Radio table tr td { font-size: 18px; padding: 15px 0px 0px 0px; color: #f47a20; font-weight: bold;}
+.cPackageDetails { padding: 0px 0px 20px 40px; background-color: #f2f2f2;}
+.cPackageDetails h2 { color: #333333; font-weight: lighter!important; font-size: 32px; line-height: 50px; font-family: 'Open Sans', sans-serif; Arial, Verdana, Helvetica; padding: 0px 0px; }
+.cPackageDetails p { font-size: 18px; color: #666666; padding: 30px 0px 10px 0px; }
+.numbers { font-family: Arial; color: #666666; font-size: 14px; padding: 0px 0px 0px 3px; height: 20px; border: 0;}
+.PromoTotalammount { background-color: #dddbdb; padding: 20px 20px 20px 40px; margin-bottom: 20px; }
+.asiacon-2015-wrapper-reg{background-color: #f2f2f2;}
+
+
+/*PAYMENTS*/
+.cLeftPayment { width: 70%; margin: 0; }
+
+
+/*PROFILES*/
+
+.cProfileRegForm .cProfileButtonPane { margin: 20px 0px 20px; background-color: transparent;}
+.cProfileRegForm .cProfileButtonPane .cCBBtn { display: inline-block; text-align: center; font-family: Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; font-weight: normal; color: #ffffff; background-color: #36b208!important; padding: 5px 10px; border: 0px; border-radius: 7px; cursor: pointer; margin: 0px 5px 0px 0px; width: 150px;}
+.cProfileRegForm { clear: both; background-color: #ffffff; color: #666666; margin: auto; padding: 40px 0px 30px 50px; font-family: 'Open Sans', sans-serif; Arial, Verdana, Helvetica; font-size: 14px; line-height: 20px; display: block; width: 50%; }
+.cProfileRegForm .cMyProfile {font-size: 14px; line-height: 19px; margin-bottom: 20px;  margin-left: 0; margin-right: 0;  margin-top: 0; padding-bottom: 40px; padding-left: 50px; padding-right: 50px; padding-top: 40px;}
+.cProfileRegForm .cDetails { background-color: #ffffff;  color: #444444; min-width: 300px; border: solid 1px #cccccc; padding: 8px;}
+.cError { color: #666666; text-align: center; padding-bottom: 25px; line-height: 25px;}
+.cProfileRegForm tr td{ font-size: 100%; font-family: 'Open Sans', sans-serif; font-weight: normal; color: #666666; line-height: 140%; padding-bottom: 20px; float: left; width: 20%;}
+.cShare { padding: 7px 7px; border-radius: 10px; background-color: #000000; display: inline-block; margin: 20px 0px 0px; }
+.cShare .cShareContent { font-size: 18px; line-height: 24px; display: inline-block; float: left; margin: 7px 20px; }
+.cShare ul { list-style: none; margin: 0px; padding: 0px; display: inline-block; }
+.cShare ul li { position: relative; float: left; padding: 0px 5px 0px 0px; margin: 0px; line-height: 0px; }
+.cShare ul li a { line-height: 0px; }
+.cShare ul li a:hover { opacity: 0.7; }
+.cPackage {float: left; width: 40%; padding: 0px 40px 20px 0px;}
+.cPackage h4 {font-weight: bold; margin-bottom: 5px; }
+.cPackage td.cSessionTime {width: 20%;}
+
+/*SPEAKER
+
+.asiacon-2015-main-content .cSpeaker { margin: 12px 4px; color: #f2f2f2; }
+.asiacon-2015-main-content .cSpeaker p { font-size: 13px; line-height: 19px; padding: 10px 0px; color: #ffffff;}
+.cSpeaker .cPic { float: left; margin: 5px 25px 0px 0px; }
+.cSpeaker .cPic img { border-radius: 5px; }
+.cSpeaker .cProfile { margin: 0px 0px 0px 110px; }
+.asiacon-2015-main-content .cSpeaker .cSpeakerName { font-size: 20px; line-height: 26px; margin: 0px 10px 10px 0px; width: 100%; color: #FCFAAE; font-weight: bold}
+.cSpeaker .cDesCompany { display: inline-block; font-size: 16px; line-height: 22px; font-style: normal; margin: 0px 10px 0px 0px; color: #FCF9CA; }
+.cDesCompany { font-size: 12px; line-height: 18px; font-style: italic; color: #ffffff; }
+.cSpeaker .cSpeakerAbstrct a{ color: #fcee70; text-decoration: none;}
+.cSpeaker .cSpeakerAbstrct a:hoover{ color: #F47C06; }*/
+
+
+
+
+
+
+
+@media screen and (max-height: 720px) {
+    .cContentRow { padding: 0px;}
+    .asiacon-2015-inner-logo { margin-bottom: 100px;}   
+    .asiacon-2015-accommodation {width: 100%; float: none; }
+    .action-button {text-align: center;}  
+    .asiacon-2015-main-content-inner-left { float: none; width: 100%;}
+    .asiacon-2015-main-content-inner-right { float: none; width: 100%; }
+    .iframe-direction{ width: auto; }
+    .cContentRow .cRight{ float: left;}
+  .Strategy-list{ padding-left: 0px; padding-right: 0px;}
+  .asiacon-2015-wrapper-strategy-header{ height: auto; background-repeat: repeat-y;}  
+  .cPackageDetails img{padding-left: 0px}
+}
+
+
+
+@media screen and (max-width: 900px) {
+   .asiacon-2015-inner-logo { margin-bottom: 120px;}
+      .asiacon-2015-accommodation {width: 100%; float: none; }
+       .action-button {text-align: center;}      
+       .asiacon-2015-main-content-inner-left { float: none; width: 100%;}
+       .asiacon-2015-main-content-inner-right { float: none; width: 100%; }
+       .iframe-direction{ width: auto; }
+       .Bullet-traingle {display: none;}
+        .Strategy-list{ padding-left: 80px; padding-right: 0px;}
+        .Abstract_R{padding-left: 20px; padding-right: 40px;}
+        .cPackageDetails img{padding-left: 0px}
+
+}
+
+
+@media screen and (max-width: 1024px) {
+
+     .asiacon-2015-inner-logo { margin-bottom: 120px;}
+     .asiacon-2015-accommodation {width: 100%; float: none; }
+      .action-button {text-align: center;}     
+      .asiacon-2015-main-content-inner-left { float: none; width: 100%;}
+      .asiacon-2015-main-content-inner-right { float: none; width: 100%; }
+      .iframe-direction{ width: auto; }
+ .Bullet-traingle {display: none;}
+  .Strategy-list{ padding-left: 80px; padding-right: 0px;}
+    .Abstract_R{padding-left: 20px; padding-right: 40px;}
+    .In_speaker-image_L{padding-top: 20px; padding-bottom: 20px;}
+  .Register-button a{width: 100%;}
+  .cPackageDetails img{padding-left: 0px}
+ 
+      
+     
+}
+@media screen and (max-width: 1170px){
+    .LeftSpeaker{ width: 100%;}
+.RightSpeaker{ width: 100%;}
+.LeftSpeaker_R{ width: 100%; border: solid 1px #b2b2b2; padding-top: 40px;}
+.RightSpeaker_R{width: 100%; border: solid 1px #b2b2b2;}
+.LeftSpeaker{ border: solid 1px #b2b2b2; padding-top: 40px;}
+.RightSpeaker{border: solid 1px #b2b2b2;}
+  .Abstract_R{padding-left: 20px; padding-right: 40px;}
+  .Title-Session_R{padding-left: 20px;}
+  .Speaker-Session_R{padding-left: 20px;}
+  .In_speaker-image_L{padding-top: 20px; padding-bottom: 20px;}
+    .cProfileRegForm {padding: 40px 10px 30px 10px; width: 100%;}
+    .cProfileRegForm tr td{float: none; width: 100%; display: inline-block;}
+     .Register-button a{width: 100%;}
+     .asiacon-2015-wrapper-strategy{background-image: none;}
+     .asiacon-2015-top-title h1{ font-size: 50px; line-height: 55px;}
+     .cPackageDetails img{padding-left: 0px}
+}
+
+        
+@media screen and (max-width: 980px) {
+    
+    .Abstract_L{height: auto; padding-left: 40px;}
+        .Abstract_R{height: auto; padding-left: 20px; padding-right: 40px;}
+        .LeftSpeaker_R{border: solid 1px #b2b2b2; padding-top: 40px;}
+        .RightSpeaker_R{border: solid 1px #b2b2b2;}
+        .LeftSpeaker{ border: solid 1px #b2b2b2; padding-top: 40px;}
+.RightSpeaker{border: solid 1px #b2b2b2;} 
+  .Title-Session_R{padding-left: 20px;}
+  .Speaker-Session_R{padding-left: 20px;}
+  .In_speaker-image_L{padding-top: 20px; padding-bottom: 20px;}
+  .cProfileRegForm {padding: 40px 10px 30px 10px; width: 100%;}
+    .cProfileRegForm tr td{float: none; width: 100%; display: inline-block; }
+         .Register-button a{width: 100%;}
+          .asiacon-2015-wrapper-strategy{background-image: none;}
+          .asiacon-2015-top-title h1{ font-size: 50px; line-height: 55px;}
+          .cPackageDetails img{padding-left: 0px}
+         
+}
+
+@media screen and (max-width: 800px) {
+ .asiacon-2015-inner-logo { margin-bottom: 120px;} 
+      .asiacon-2015-accommodation {width: 100%; float: none; }
+       .action-button {text-align: center;}      
+       .asiacon-2015-main-content-inner-left { float: none; width: 100%;}
+       .asiacon-2015-main-content-inner-right { float: none; width: 100%; }
+       .iframe-direction{ width: auto; }     
+       .cRegForm .cLeft, .cRegForm .cRight { width: auto; min-width: 50%; }
+        .cRegForm .cButtonPane .cPayMethods { max-width: 250px; }
+        .cRegForm .cLeft{padding: 0; margin: 0; float: none;}
+        .cRegForm .cRight{ padding: 0; margin: 0; }
+          .Strategy-list{ padding-left: 80px; padding-right: 0px;}
+       .Bullet-traingle {display: none;}
+         .Abstract_L{height: auto; padding-left: 40px;}
+        .Abstract_R{height: auto; padding-left: 20px;}
+        .LeftSpeaker_R{border: solid 1px #b2b2b2; padding-top: 40px;}
+        .RightSpeaker_R{border: solid 1px #b2b2b2;}
+           .LeftSpeaker{ border: solid 1px #b2b2b2; padding-top: 40px;}
+.RightSpeaker{border: solid 1px #b2b2b2;}
+   .Title-Session_R{padding-left: 20px;}
+  .Speaker-Session_R{padding-left: 20px;}
+  .In_speaker-image_L{padding-top: 20px; padding-bottom: 20px;}
+      .cProfileRegForm {padding: 40px 10px 30px 10px; width: 100%;}
+    .cProfileRegForm tr td{float: none; width: 100%; display: inline-block;} 
+       .Register-button a{width: 100%;}
+        .asiacon-2015-wrapper-strategy{background-image: none;}
+        .asiacon-2015-top-title h1{ font-size: 50px; line-height: 55px;}
+        .cPackageDetails img{padding-left: 0px}
+        
+          
+}
+
+@media screen and (max-width: 600px) {
+ .asiacon-2015-inner-logo { margin-bottom: 120px;}
+ .asiacon-2015-top-title { width: 80%; text-align: center; }
+          .asiacon-2015-accommodation {width: 100%; float: none; }
+       .action-button {text-align: center;}    
+       .asiacon-2015-main-content-inner-left { float: none; width: 100%;}
+       .asiacon-2015-main-content-inner-right { float: none; width: 100%; }
+       .iframe-direction{ width: auto; }
+         .Inspired_TopTitle h2{ padding-top: 40px;}
+         .asiacon-2015-wrapper-strategy{ height: auto; background-repeat: repeat-y;}
+         .LayerStrategy{ height: auto;}
+         .asiacon-2015-wrapper-strategy-header{ height: auto; background-repeat: repeat-y;}
+          .Abstract_L{height: auto; padding-left: 40px;}
+        .Abstract_R{height: auto;}
+      
+       
+}
+
+@media screen and (max-width: 450px) {
+ .asiacon-2015-inner-logo { margin-bottom: 120px;}
+ .asiacon-2015-top-title { width: 80%; text-align: center; }
+          .asiacon-2015-accommodation {width: 100%; float: none; }
+       .action-button {text-align: center;}      
+       .asiacon-2015-main-content-inner-left { float: none; width: 100%;}
+       .asiacon-2015-main-content-inner-right { float: none; width: 100%; }
+       .iframe-direction{ width: auto; }
+      
+       
+        .cRegForm .cLeft, .cRegForm .cRight { width: auto; margin: 0; float: none; }
+    .cRegForm table tr td { display: inline-block; clear: both; float: left; }
+    .cRegForm table tr td.cTableTitle { display: none; }
+    .cRegForm table.cBillingInfo td { max-width: inherit; width: 100%; }
+    .cRegForm table.cBillingInfo td.cField { max-width: inherit; width: auto; }
+    .cRegTopLinks { display: inline-block; float: none; font-weight: bold; color:#f47b22; line-height: 22px; font-size: 16px; margin: 0px 0px 10px; }
+    .cRegFee { display: block; text-align: center; }
+    .cShare ul { margin: 0px 0px 10px; }
+      .f-nav .cLinkWrapper {
+        width: 60%;
+        .Inspired_TopTitle h2{ padding-top: 40px;}
+        .Abstract_L{height: auto;}
+        .Abstract_R{height: auto;}
+         .asiacon-2015-top-title h1{font-size: 30px;}
+}
+
+
+@media screen and (max-width: 500px) {
+ .asiacon-2015-inner-logo { margin-bottom: 120px;}
+ 
+          .asiacon-2015-accommodation {width: 100%; float: none; }
+       .action-button {text-align: center;}    
+       .asiacon-2015-main-content-inner-left { float: none; width: 100%;}
+       .asiacon-2015-main-content-inner-right { float: none; width: 100%; }
+       .iframe-direction{ width: auto; }
+      
+       
+    .cRegHeader .cInactive1, .cRegHeader .cInactive2 { display: none; }
+    .cRegHeader .cActive { border-top-left-radius: 7px; width: auto; float: none; display: block; }
+    .cRegForm .cButtonPane .cRegBtn, .cRegForm .cButtonPane .cBtnText { float: none; display: block; margin: 0px 0px 10px; text-align: center; }
+    .cRegForm .cButtonPane .cPaymentsMethods { float: none; }
+}
+
+@media screen and (max-width: 320px) {
+ .asiacon-2015-inner-logo { margin-bottom: 120px;}
+     
+      .asiacon-2015-accommodation {width: 100%; float: none; }
+       .action-button {text-align: center;}     
+       .asiacon-2015-main-content-inner-left { float: none; width: 100%;}
+       .asiacon-2015-main-content-inner-right { float: none; width: 100%; }
+       .iframe-direction{ width: auto; }
+       .Strategy-list{ padding-left: 0px; padding-right: 0px; font-size: 110%;}
+        .asiacon-2015-top-title h1{font-size: 21px;}
+   
+}
+
+
+
+/*AGENDA SUMMERY*/
+
+/*.action-button { margin: 0%; text-align: center; width: 100%; display: block; position: relative; padding-bottom: 30px;}*/
+
+/*.asiacon-2015-buttons-02 { float: left; width: 30%; margin-top: 0px; margin-left: 315px; text-align: center; }
+.asiacon-2015-buttons-02 a{ font-family: 'Open Sans', sans-serif; Arial, Verdana, Helvetica; font-size: 21px; line-height: 20px; margin: 10px 8px 0px 0px; color: #ffffff; text-align: center; background-color: #36b208; border-radius: 11px; text-decoration: none; display: block; padding: 20px 12px 20px 12px; font-weight: bold; }
+.asiacon-2015-buttons-02 a:hover{ background-color: #4def11; }*/
+
+
+
+
