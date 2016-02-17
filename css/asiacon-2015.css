@@ -253,7 +253,15 @@ a.cFacebook:hover, a.cTwitter:hover, a.cLinkedin:hover, a.cGplus:hover, a.cVideo
 .cBottomLinks { padding: 10px; display: inline-block;}
 
 
-
+.track-one{
+    background-color: #e25b67;
+}
+.track-two{
+    background-color: #f9a961;
+}
+.track-three{
+    background-color: #444b97;
+}
 
 
 /*FOOTER END*/
