@@ -1,5 +1,5 @@
 var data = [];
-var jw_width = 640, jw_height = 360;
+var jw_width = "90%", jw_height = 360;
  
 // Outputs some logs about jwplayer
 function print(t, obj) {
@@ -16,7 +16,7 @@ $(document).ready(function() {
     jwplayer('player').setup({
         wmode: 'transparent',
         width: jw_width,
-        height: jw_height,
+        aspectratio: "16:9",
         stretching: 'exactfit'
     });
  
@@ -37,8 +37,8 @@ $(document).ready(function() {
 function startPlayer(stream) {
  
     jwplayer('player').setup({
-        height: jw_height,
         width: jw_width,
+        aspectratio: "16:9",
         stretching: 'exactfit',
         sources: [{
                 file: stream
